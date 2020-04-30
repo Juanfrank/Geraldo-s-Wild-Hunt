@@ -9,7 +9,7 @@
 			<operations>
 
 			<li Class="PatchOperationAddModExtension">
-				<xpath>Defs/ThingDef[defName="WMH_Fogler"]</xpath>
+				<xpath>Defs/ThingDef[defName="WMH_Hym"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
 						<bodyShape>Humanoid</bodyShape>
@@ -18,73 +18,49 @@
 			</li>
 
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="WMH_Fogler"]/statBases</xpath>
+				<xpath>Defs/ThingDef[defName="WMH_Hym"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.33</MeleeDodgeChance>
-					<MeleeCritChance>0.01</MeleeCritChance>
+					<MeleeDodgeChance>0.4</MeleeDodgeChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
 				</value>
 			</li>
 
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="WMH_Fogler"]/statBases/ArmorRating_Blunt</xpath>
-		<value>
-			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-		</value>
-	</li>
-
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="WMH_Fogler"]/statBases/ArmorRating_Sharp</xpath>
-		<value>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-		</value>
-	</li>
-
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WMH_Fogler"]/tools</xpath>
+				<xpath>Defs/ThingDef[defName="WMH_Hym"]/tools</xpath>
 				<value>
 					<tools>
 				<li Class="CombatExtended.ToolCE">
 				<label>left fist</label>
 				<capacities>
-					<li>WMH_InfectedClaws</li>
+					<li>WMH_HymPunch</li>
 				</capacities>
-							<power>5</power>
-							<cooldownTime>1.1</cooldownTime>
+							<power>30</power>
+							<cooldownTime>2.15</cooldownTime>
 							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-							<armorPenetrationSharp>1</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.9</armorPenetrationBlunt>
+							<armorPenetrationSharp>30</armorPenetrationSharp>
+							<armorPenetrationBlunt>60</armorPenetrationBlunt>
 						</li>
 				<li Class="CombatExtended.ToolCE">
 				<label>right fist</label>
 				<capacities>
-					<li>WMH_InfectedClaws</li>
+					<li>WMH_HymPunch</li>
 				</capacities>
-							<power>5</power>
-							<cooldownTime>1.1</cooldownTime>
+							<power>30</power>
+							<cooldownTime>2.15</cooldownTime>
 							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-							<armorPenetrationSharp>1</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.9</armorPenetrationBlunt>
-						</li>
-				<li Class="CombatExtended.ToolCE">
-				<capacities>
-					<li>Bite</li>
-				</capacities>
-							<power>10</power>
-							<cooldownTime>2</cooldownTime>
-							<armorPenetrationSharp>1</armorPenetrationSharp>
-							<armorPenetrationBlunt>2</armorPenetrationBlunt>
-				                                                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-				                                                <chanceFactor>0.7</chanceFactor>
+							<armorPenetrationSharp>30</armorPenetrationSharp>
+							<armorPenetrationBlunt>60</armorPenetrationBlunt>
 						</li>
 				<li Class="CombatExtended.ToolCE">
 				<label>head</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>WMH_HymPunch</li>
 				</capacities>
-				<power>3</power>
+				<power>10</power>
 				<cooldownTime>1.6</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<armorPenetrationBlunt>1</armorPenetrationBlunt>
+							<armorPenetrationSharp>30</armorPenetrationSharp>
+							<armorPenetrationBlunt>60</armorPenetrationBlunt>
 				<chanceFactor>0.2</chanceFactor>
 						</li>
 					</tools>

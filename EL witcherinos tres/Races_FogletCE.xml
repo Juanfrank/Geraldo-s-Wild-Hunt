@@ -20,8 +20,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="WMH_Fogler"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.33</MeleeDodgeChance>
-					<MeleeCritChance>0.01</MeleeCritChance>
+					<MeleeDodgeChance>0.35</MeleeDodgeChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
 				</value>
 			</li>
 

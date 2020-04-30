@@ -22,7 +22,7 @@
 				<xpath>Defs/ThingDef[defName="WMH_Werewolf"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.35</MeleeDodgeChance>
-					<MeleeCritChance>0.42</MeleeCritChance>
+					<MeleeCritChance>0.3</MeleeCritChance>
 				</value>
 			</li>
 
@@ -35,29 +35,29 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-							<power>18</power>
-							<cooldownTime>1</cooldownTime>
+							<power>19</power>
+							<cooldownTime>0.9</cooldownTime>
 							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 							<armorPenetrationSharp>2</armorPenetrationSharp>
-							<armorPenetrationBlunt>5</armorPenetrationBlunt>
+							<armorPenetrationBlunt>6</armorPenetrationBlunt>
 						</li>
 				<li Class="CombatExtended.ToolCE">
 				<label>right claw</label>
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-							<power>18</power>
-							<cooldownTime>1</cooldownTime>
+							<power>19</power>
+							<cooldownTime>0.9</cooldownTime>
 							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 							<armorPenetrationSharp>2</armorPenetrationSharp>
-							<armorPenetrationBlunt>5</armorPenetrationBlunt>
+							<armorPenetrationBlunt>6</armorPenetrationBlunt>
 						</li>
 				<li Class="CombatExtended.ToolCE">
 				<capacities>
 					<li>WMH_WerewolfBite</li>
 				</capacities>
-							<power>30</power>
-							<cooldownTime>2</cooldownTime>
+							<power>32</power>
+							<cooldownTime>1.85</cooldownTime>
 							<armorPenetrationSharp>6</armorPenetrationSharp>
 							<armorPenetrationBlunt>12</armorPenetrationBlunt>
 				                                                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>

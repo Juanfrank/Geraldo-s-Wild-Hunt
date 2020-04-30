@@ -52,7 +52,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-							<power>33</power>
+							<power>34</power>
 							<cooldownTime>1.8</cooldownTime>
 							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>12</armorPenetrationBlunt>
@@ -62,7 +62,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-							<power>33</power>
+							<power>34</power>
 							<cooldownTime>1.8</cooldownTime>
 							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>12</armorPenetrationBlunt>
@@ -72,7 +72,7 @@
 				<capacities>
 					<li>BiteBlunt</li>
 				</capacities>
-							<power>23</power>
+							<power>24</power>
 							<cooldownTime>2</cooldownTime>
 							<armorPenetrationBlunt>12</armorPenetrationBlunt>
 				                                                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
