@@ -26,6 +26,14 @@
 				</value>
 			</li>
 
+
+                                   <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMAux_KikimoreWorker"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>4</MoveSpeed>
+		</value>
+			</li>
+
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="WMAux_KikimoreWorker"]/tools</xpath>
 				<value>
@@ -66,6 +74,14 @@
 				</value>
 			</li>
 
+
+                                   <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMAux_KikimoreWorker"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>4.5</MoveSpeed>
+		</value>
+			</li>
+
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="WMAux_KikimoreWarrior"]/statBases</xpath>
 				<value>
@@ -78,14 +94,14 @@
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMAux_KikimoreWarrior"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
 		</value>
 	</li>
 
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMAux_KikimoreWarrior"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
 		</value>
 	</li>
 
@@ -134,21 +150,28 @@
 				<value>
 					<MeleeDodgeChance>0.01</MeleeDodgeChance>
 					<MeleeCritChance>0.75</MeleeCritChance>
-					<MeleeParryChance>0.25</MeleeParryChance>
+					<MeleeParryChance>0.3</MeleeParryChance>
 				</value>
+			</li>
+
+                                   <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMH_KikimoreQueen"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>3.5</MoveSpeed>
+		</value>
 			</li>
 
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMH_KikimoreQueen"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>6</ArmorRating_Blunt>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
 		</value>
 	</li>
 
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMH_KikimoreQueen"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>5</ArmorRating_Sharp>
+			<ArmorRating_Sharp>6</ArmorRating_Sharp>
 		</value>
 	</li>
 

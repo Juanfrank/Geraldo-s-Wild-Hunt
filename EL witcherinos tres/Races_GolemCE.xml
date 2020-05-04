@@ -32,7 +32,7 @@
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMH_Golem"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			<ArmorRating_Blunt>32</ArmorRating_Blunt>
 		</value>
 	</li>
 
@@ -42,6 +42,14 @@
 			<ArmorRating_Sharp>16</ArmorRating_Sharp>
 		</value>
 	</li>
+
+                                <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMH_Golem"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>3</MoveSpeed>
+		</value>
+			</li>
+
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="WMH_Golem"]/tools</xpath>

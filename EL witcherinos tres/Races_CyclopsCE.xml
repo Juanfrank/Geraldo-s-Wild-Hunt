@@ -29,6 +29,14 @@
 				</value>
 			</li>
 
+                                 <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMH_Cyclops"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>4</MoveSpeed>
+		</value>
+			</li>
+
+
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMH_Cyclops"]/statBases/ArmorRating_Blunt</xpath>
 		<value>

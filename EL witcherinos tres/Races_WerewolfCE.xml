@@ -26,6 +26,13 @@
 				</value>
 			</li>
 
+                               <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMH_Werewolf"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>7.5</MoveSpeed>
+		</value>
+			</li>
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="WMH_Werewolf"]/tools</xpath>
 				<value>

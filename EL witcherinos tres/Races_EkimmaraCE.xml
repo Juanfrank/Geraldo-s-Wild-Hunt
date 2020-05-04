@@ -24,7 +24,7 @@
 			<AimingAccuracy>1.0</AimingAccuracy>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 					<MeleeDodgeChance>0.27</MeleeDodgeChance>
-					<MeleeCritChance>0.14</MeleeCritChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
 			<MeleeParryChance>0.15</MeleeParryChance>
 				</value>
 			</li>
@@ -39,9 +39,16 @@
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMH_Ekimmara"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</value>
 	</li>
+
+                                 <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMH_Ekimmara"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>4.6</MoveSpeed>
+		</value>
+			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="WMH_Ekimmara"]/tools</xpath>

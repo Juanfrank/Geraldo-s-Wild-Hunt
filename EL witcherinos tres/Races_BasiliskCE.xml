@@ -29,6 +29,13 @@
 				</value>
 			</li>
 
+                                   <li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WMH_Basilisk"]/statBases/MoveSpeed</xpath>
+		<value>
+			<MoveSpeed>4.6</MoveSpeed>
+		</value>
+			</li>
+
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WMH_Basilisk"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
@@ -39,7 +46,7 @@
 	<li Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="WMH_Basilisk"]/statBases</xpath>
 		<value>
-			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
 		</value>
 	</li>
 
