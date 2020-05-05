@@ -76,7 +76,7 @@
 
 
                                    <li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="WMAux_KikimoreWorker"]/statBases/MoveSpeed</xpath>
+		<xpath>Defs/ThingDef[defName="WMAux_KikimoreWarrior"]/statBases/MoveSpeed</xpath>
 		<value>
 			<MoveSpeed>4.5</MoveSpeed>
 		</value>
