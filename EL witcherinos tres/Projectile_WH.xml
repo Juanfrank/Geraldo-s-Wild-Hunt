@@ -35,9 +35,9 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>WMH_VeryToxicBite</damageDef>
 						<damageAmountBase>40</damageAmountBase>
-						<speed>25</speed>
-						<armorPenetrationSharp>6</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
+						<speed>26</speed>
+						<armorPenetrationSharp>10</armorPenetrationSharp>
+						<armorPenetrationBlunt>20.660</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -48,9 +48,9 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>WMH_AcidSpit</damageDef>
-						<damageAmountBase>12</damageAmountBase>
-						<speed>25</speed>
-						<armorPenetrationSharp>6</armorPenetrationSharp>
+						<damageAmountBase>40</damageAmountBase>
+						<speed>22</speed>
+						<armorPenetrationSharp>10</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
 					</projectile>
 				</value>
@@ -62,8 +62,8 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Flame</damageDef>
-						<damageAmountBase>10</damageAmountBase>
-						<speed>18</speed>
+						<damageAmountBase>6</damageAmountBase>
+						<speed>13</speed>
 						<armorPenetrationSharp>16</armorPenetrationSharp>
 						<armorPenetrationBlunt>14.4</armorPenetrationBlunt>
 					</projectile>
@@ -78,7 +78,7 @@
 						<damageDef>Bomb</damageDef>
 						<damageAmountBase>40</damageAmountBase>
 						<soundExplode>MortarBomb_Explode</soundExplode>
-						<speed>15</speed>
+						<speed>12</speed>
 						<armorPenetrationSharp>5</armorPenetrationSharp>
 						<armorPenetrationBlunt>25</armorPenetrationBlunt>
 						<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
@@ -93,7 +93,7 @@
 						<li Class="CombatExtended.CompProperties_Fragments">
 							<fragments>
 							<Fragment_Small>18</Fragment_Small>
-							<Fragment_Large>5</Fragment_Large>
+							<Fragment_Large>4</Fragment_Large>
 							</fragments>
 						</li>
 					</comps>

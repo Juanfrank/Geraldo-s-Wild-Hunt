@@ -20,6 +20,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="WMH_Djinn"]/statBases</xpath>
 				<value>
+			<AimingAccuracy>0.1</AimingAccuracy>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
 					<MeleeDodgeChance>0.75</MeleeDodgeChance>
 					<MeleeCritChance>0.01</MeleeCritChance>
 				</value>
