@@ -73,9 +73,9 @@
 					
 					<li Class="PatchOperationConditional"> <!-- Start off by adding groups to things that don't have them, just in case author decides to add them at some point -->
 						<success>Always</success>
-						<xpath>/Defs/BodyDef[defName="WMH_JellyfishBody"]//*[def="Torso" or def="WMH_RockHead" or def="WMH_RockArm" or def="WMH_RockLeg"]/groups</xpath>
+						<xpath>/Defs/BodyDef[defName="WMH_RockHumanoid"]//*[def="Torso" or def="WMH_RockHead" or def="WMH_RockArm" or def="WMH_RockLeg"]/groups</xpath>
 							<nomatch Class="PatchOperationAdd">
-							<xpath>/Defs/BodyDef[defName="WMH_JellyfishBody"]//*[def="Torso" or def="WMH_RockHead" or def="WMH_RockArm" or def="WMH_RockLeg"]</xpath>
+							<xpath>/Defs/BodyDef[defName="WMH_RockHumanoid"]//*[def="Torso" or def="WMH_RockHead" or def="WMH_RockArm" or def="WMH_RockLeg"]</xpath>
 								<value>
 									<groups>
 									</groups>
@@ -84,7 +84,7 @@
 					</li>
 					
 					<li Class="PatchOperationAdd"> <!-- Then add natural armor -->
-						<xpath>/Defs/BodyDef[defName="WMH_JellyfishBody"]//*[def="Torso" or def="WMH_RockHead" or def="WMH_RockArm" or def="WMH_RockLeg"]/groups</xpath>
+						<xpath>/Defs/BodyDef[defName="WMH_RockHumanoid"]//*[def="Torso" or def="WMH_RockHead" or def="WMH_RockArm" or def="WMH_RockLeg"]/groups</xpath>
 						<value>
 							<li>CoveredByNaturalArmor</li>
 						</value>
