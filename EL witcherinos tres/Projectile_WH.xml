@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-		<li>Alpha Animals</li>
+		<li>RimWorld - Witcher Monster Hunt</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
